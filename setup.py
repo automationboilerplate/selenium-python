@@ -16,6 +16,6 @@ setup(
     include_package_data=True,
     packages=find_packages(),
     install_requires=[
-        'selenium>=3.14',
+        'selenium>=3.14', 'page_objects=1.1.0'
     ],
 )
