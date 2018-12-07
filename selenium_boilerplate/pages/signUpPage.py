@@ -1,4 +1,4 @@
-from pages.BasePage import BasePage as ParentPage
+from pages.basePage import BasePage as ParentPage
 from page_objects import PageElement
 
 

@@ -1,8 +1,8 @@
 import unittest
 import json
 import os
-from pages.HomePage import HomePage
-from pages.SignUpPage import SignUpPage
+from selenium_boilerplate.pages.homePage import HomePage
+from selenium_boilerplate.pages.signUpPage import SignUpPage
 from selenium import webdriver
 
 
