@@ -1,4 +1,4 @@
-from pages.basePage import BasePage as ParentPage
+from selenium_boilerplate.pages.basePage import BasePage as ParentPage
 from page_objects import PageElement
 
 

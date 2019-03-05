@@ -9,7 +9,7 @@ setup(
         'Intended Audience :: Automation Engineers',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7.2',
     ],
     author='Vignesh Jeyaraj',
     author_email='vicky.008@gmail.com',

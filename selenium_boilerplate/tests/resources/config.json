@@ -1,0 +1,18 @@
+{
+  "environments" : {
+    "dev": {
+      "host": "https://www.yahoo.com/"
+    },
+    "qa" : {
+      "host": "https://www.mail.com/"
+    }
+  },
+  "users" : {
+    "admin": {
+      "username": ""
+    },
+    "viewer": {
+      "username": ""
+    }
+  }
+}

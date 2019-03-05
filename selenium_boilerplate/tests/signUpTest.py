@@ -1,9 +1,16 @@
-from selenium_boilerplate.tests.baseTest import BaseTest
+from tests.baseTest import BaseTest
+import unittest
 
 
-class SignUpTest(BaseTest):
+class SignUpTest(BaseTest, unittest.TestCase):
 
     def setUp(self):
-        super(SignUpTest, self).__init__()
+        print("calling super setup...")
+        super().setUp()
+
+    def test_a(self):
+        print("Running test")
 
 
+if __name__ == "__main__":
+    unittest.main()
